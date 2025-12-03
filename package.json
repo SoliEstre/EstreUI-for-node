@@ -1,6 +1,6 @@
 {
     "name": "create-estreui",
-    "version": "1.0.0.RC3",
+    "version": "1.0.0",
     "description": "Scaffolding tool for EstreUI projects",
     "main": "index.js",
     "bin": {
@@ -14,7 +14,8 @@
         "estreui",
         "ui",
         "framework",
-        "pwa"
+        "pwa",
+        "cli"
     ],
     "author": "SoliEstre",
     "license": "ISC",
@@ -22,6 +23,7 @@
         "commander": "^14.0.2",
         "inquirer": "^8.2.7",
         "lodash": "^4.17.21",
+        "estreui": "^1.0.0",
         "jquery": "^3.7.1",
         "jcodd": "^0.8.2",
         "doctre": "^1.0.0",
