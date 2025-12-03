@@ -1,0 +1,31 @@
+{
+    "name": "create-estreui",
+    "version": "1.0.0.RC3",
+    "description": "Scaffolding tool for EstreUI projects",
+    "main": "index.js",
+    "bin": {
+        "create-estreui": "./bin/estreui.js",
+        "estreui": "./bin/estreui.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "estreui",
+        "ui",
+        "framework",
+        "pwa"
+    ],
+    "author": "SoliEstre",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^14.0.2",
+        "inquirer": "^8.2.7",
+        "lodash": "^4.17.21",
+        "jquery": "^3.7.1",
+        "jcodd": "^0.8.2",
+        "doctre": "^1.0.0",
+        "modernism": "^0.4.3",
+        "alienese": "^0.4.5"
+    }
+}
