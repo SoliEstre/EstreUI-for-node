@@ -44,10 +44,13 @@ npm create estreui my-estreui-app
 
 If you provide a project name, it will be set up automatically. If omitted, you will be prompted to enter it.
 The following will be automatically set up:
-- ✅ Copy EstreUI core files
+- ✅ Copy EstreUI core files (from local or global package)
 - ✅ Create `package.json`
 - ✅ Install essential libraries (JCODD, Doctre, Modernism, Alienese, jQuery)
 - ✅ Automatically configure `index.html`
+- ✅ Create/Update `.gitignore` with `node_modules`
+
+> **Note**: If you have `estreui` installed globally, the CLI will ask if you want to install it locally in the new project. You can choose to skip local installation and use the global package assets instead.
 
 ### 2. Run Development Server
 

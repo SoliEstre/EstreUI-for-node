@@ -44,10 +44,13 @@ npm create estreui my-estreui-app
 
 프로젝트 이름을 입력하면 자동으로 설정됩니다. 생략 시 이름을 입력받는 프롬프트가 표시됩니다.
 다음이 자동으로 설정됩니다:
-- ✅ EstreUI 코어 파일 복사
+- ✅ EstreUI 코어 파일 복사 (로컬 또는 글로벌 패키지에서)
 - ✅ `package.json` 생성
 - ✅ 필수 라이브러리 설치 (JCODD, Doctre, Modernism, Alienese, jQuery)
 - ✅ `index.html` 자동 구성
+- ✅ `.gitignore` 생성/업데이트 (`node_modules` 포함)
+
+> **참고**: `estreui`가 전역으로 설치되어 있는 경우, CLI는 새 프로젝트에 로컬로 설치할지 여부를 묻습니다. 로컬 설치를 건너뛰고 전역 패키지 자산을 사용하도록 선택할 수 있습니다.
 
 ### 2. 개발 서버 실행
 
