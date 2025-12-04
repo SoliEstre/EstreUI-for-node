@@ -22,14 +22,14 @@ EstreUI is a modern JavaScript UI framework that can be used immediately without
 ### Using NPM Create (Recommended)
 
 ```bash
-npm create estreui
+npm create estreui [project-name]
 ```
 
 ### Global Installation
 
 ```bash
 npm install -g create-estreui
-estreui init
+estreui init [project-name]
 ```
 
 ---
@@ -39,10 +39,11 @@ estreui init
 ### 1. Create a New Project
 
 ```bash
-npm create estreui
+npm create estreui my-estreui-app
 ```
 
-Enter your project name, and the following will be automatically set up:
+If you provide a project name, it will be set up automatically. If omitted, you will be prompted to enter it.
+The following will be automatically set up:
 - ✅ Copy EstreUI core files
 - ✅ Create `package.json`
 - ✅ Install essential libraries (JCODD, Doctre, Modernism, Alienese, jQuery)
@@ -71,7 +72,7 @@ https://localhost:8080/
 Initialize a new EstreUI project.
 
 ```bash
-estreui init
+estreui init [project-name]
 ```
 
 **Generated File Structure:**

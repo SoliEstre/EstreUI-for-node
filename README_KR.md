@@ -22,14 +22,14 @@ EstreUI는 빌드 과정 없이 바로 사용할 수 있는 모던 JavaScript UI
 ### NPM Create 사용 (권장)
 
 ```bash
-npm create estreui
+npm create estreui [프로젝트명]
 ```
 
 ### 전역 설치
 
 ```bash
 npm install -g create-estreui
-estreui init
+estreui init [프로젝트명]
 ```
 
 ---
@@ -39,10 +39,11 @@ estreui init
 ### 1. 새 프로젝트 생성
 
 ```bash
-npm create estreui
+npm create estreui my-estreui-app
 ```
 
-프로젝트 이름을 입력하면 다음이 자동으로 설정됩니다:
+프로젝트 이름을 입력하면 자동으로 설정됩니다. 생략 시 이름을 입력받는 프롬프트가 표시됩니다.
+다음이 자동으로 설정됩니다:
 - ✅ EstreUI 코어 파일 복사
 - ✅ `package.json` 생성
 - ✅ 필수 라이브러리 설치 (JCODD, Doctre, Modernism, Alienese, jQuery)
@@ -71,7 +72,7 @@ https://localhost:8080/
 새로운 EstreUI 프로젝트를 초기화합니다.
 
 ```bash
-estreui init
+estreui init [프로젝트명]
 ```
 
 **생성되는 파일 구조:**

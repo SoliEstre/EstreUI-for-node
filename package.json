@@ -1,6 +1,6 @@
 {
     "name": "create-estreui",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Scaffolding tool for EstreUI projects",
     "main": "index.js",
     "bin": {

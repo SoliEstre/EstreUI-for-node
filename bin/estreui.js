@@ -22,4 +22,18 @@ program.addCommand(devCommand);
 program.addCommand(addCommand);
 program.addCommand(removeCommand);
 
-program.parse();
+// If no args, default to init
+const args = process.argv.slice(2);
+if (!args.length) {
+    program.parse([...process.argv, 'init']);
+} else {
+    const knownCommands = ['init', 'update', 'dev', 'add', 'remove', 'help'];
+    const firstArg = args[0];
+    
+    // If first arg is not a known command and not a flag, assume it's a project name for init
+    if (!knownCommands.includes(firstArg) && !firstArg.startsWith('-')) {
+        program.parse([...process.argv.slice(0, 2), 'init', ...args]);
+    } else {
+        program.parse(process.argv);
+    }
+}
