@@ -1,6 +1,6 @@
 {
     "name": "create-estreui",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Scaffolding tool for EstreUI projects",
     "main": "index.js",
     "bin": {
@@ -11,11 +11,28 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
+        "gui",
+        "framework",
+        "frontend",
         "estreui",
+        "native-like",
+        "ui-framework",
+        "spa-framework",
+        "pwa-framework",
+        "mobile-first",
+        "mobile-ui",
+        "desktop-ui",
+        "web-desktop",
+        "jquery-plugin",
         "ui",
         "framework",
+        "spa",
         "pwa",
-        "cli"
+        "cli",
+        "dev-server",
+        "https",
+        "https-server",
+        "https-dev-server"
     ],
     "author": "SoliEstre",
     "license": "ISC",
@@ -23,11 +40,11 @@
         "commander": "^14.0.2",
         "inquirer": "^8.2.7",
         "lodash": "^4.17.21",
-        "estreui": "^1.0.1",
+        "estreui": "^1.0.7",
         "jquery": "^3.7.1",
         "jcodd": "^0.8.2",
-        "doctre": "^1.0.0",
-        "modernism": "^0.4.3",
-        "alienese": "^0.4.5"
+        "doctre": "^1.1.0",
+        "modernism": "^0.6.0",
+        "alienese": "^0.6.0"
     }
 }
