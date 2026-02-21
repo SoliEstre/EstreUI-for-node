@@ -1,6 +1,6 @@
 {
     "name": "create-estreui",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Scaffolding tool for EstreUI projects",
     "main": "index.js",
     "bin": {
@@ -40,11 +40,11 @@
         "commander": "^14.0.2",
         "inquirer": "^8.2.7",
         "lodash": "^4.17.21",
-        "estreui": "^1.0.7",
-        "jquery": "^3.7.1",
-        "jcodd": "^0.8.2",
-        "doctre": "^1.1.0",
-        "modernism": "^0.6.0",
-        "alienese": "^0.6.0"
+        "estreui": "^1.1.0",
+        "jquery": "^4.0.0",
+        "jcodd": "^0.9.0",
+        "doctre": "^1.1.1",
+        "modernism": "^0.7.0",
+        "alienese": "^0.7.0"
     }
 }

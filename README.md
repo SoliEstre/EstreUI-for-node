@@ -183,19 +183,19 @@ estreui remove lodash
 
 EstreUI projects come with the following libraries:
 
-### jQuery (v3.7.1)
+### jQuery (v4.0.0)
 Library for DOM manipulation and event handling.
 
-### JCODD (v0.8.2)
+### JCODD (v0.9.0)
 JSON Characterized Object Data Definition - Lightweight JSON-based data format.
 
-### Doctre (v1.0.0)
+### Doctre (v1.1.1)
 Document Object Cold Taste Refrigeration Effortlessness - HTML/JSON DOM parser and serializer.
 
-### Modernism (v0.4.3)
+### Modernism (v0.7.0)
 JavaScript feature detection and polyfill management.
 
-### Alienese (v0.4.5)
+### Alienese (v0.7.0)
 EstreUI JavaScript patches and utilities.
 
 ---

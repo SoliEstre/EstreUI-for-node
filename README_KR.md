@@ -183,19 +183,19 @@ estreui remove lodash
 
 EstreUI 프로젝트는 다음 라이브러리들과 함께 제공됩니다:
 
-### jQuery (v3.7.1)
+### jQuery (v4.0.0)
 DOM 조작 및 이벤트 처리 라이브러리
 
-### JCODD (v0.8.2)
+### JCODD (v0.9.0)
 JSON Characterized Object Data Definition - JSON 기반 경량 데이터 포맷
 
-### Doctre (v1.0.0)
+### Doctre (v1.1.1)
 Document Object Cold Taste Refrigeration Effortlessness - HTML/JSON DOM 파서 및 직렬화
 
-### Modernism (v0.4.3)
+### Modernism (v0.7.0)
 JavaScript 기능 감지 및 폴리필 관리
 
-### Alienese (v0.4.5)
+### Alienese (v0.7.0)
 EstreUI JavaScript 패치 및 유틸리티
 
 ---
