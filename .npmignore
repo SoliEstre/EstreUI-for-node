@@ -1,0 +1,11 @@
+# .npmignore — 배포 제외 목록
+# .npmignore 가 존재하면 .gitignore 가 아닌 이 파일이 npm publish 의 제외 규칙이 된다.
+# .gitignore 의 엔트리를 여기에도 미러링한 뒤, 배포에서 빼고 싶은 내부 문서를 추가한다.
+
+# .gitignore 미러
+node_modules
+package-lock.json
+
+# 허브 조율 관련 내부 문서 (npm 배포 대상 아님)
+AGENTS.md
+.agent/
