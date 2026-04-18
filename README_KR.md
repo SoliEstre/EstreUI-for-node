@@ -6,6 +6,20 @@
 
 EstreUI는 빌드 과정 없이 바로 사용할 수 있는 모던 JavaScript UI 프레임워크입니다. NPM 패키지를 통해 프로젝트 스캐폴딩과 PWA 개발을 위한 도구를 제공합니다.
 
+## 🚀 30초 만에 시작
+
+```bash
+npm create estreui@latest my-app
+cd my-app
+npm run dev
+```
+
+`https://localhost:8080/` 에 HTTPS 로 열리며, PWA Service Worker 스캐폴드와 jQuery 4 + 헬퍼 라이브러리가 미리 연결된 상태. 빌드 도구·번들러 설정 불필요.
+
+- **라이브 데모·문서**: https://estreui.mpsolutions.kr
+- **프레임워크 저장소**: https://github.com/SoliEstre/EstreUI.js
+- **튜토리얼**: [10분 안에 jQuery SPA 만들기](https://estreui.tistory.com)
+
 ## ✨ 특징
 
 - 🚀 **No-Build**: 빌드 과정 없이 바로 실행

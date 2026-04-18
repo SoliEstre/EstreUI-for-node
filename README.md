@@ -6,6 +6,20 @@
 
 EstreUI is a modern JavaScript UI framework that can be used immediately without a build process. It provides tools for project scaffolding and PWA development via an NPM package.
 
+## 🚀 30-Second Start
+
+```bash
+npm create estreui@latest my-app
+cd my-app
+npm run dev
+```
+
+Opens `https://localhost:8080/` with HTTPS, a PWA Service Worker scaffold, and jQuery 4 + helper libraries pre-wired. No build step, no bundler config.
+
+- **Live demo & docs**: https://estreui.mpsolutions.kr
+- **Framework repo**: https://github.com/SoliEstre/EstreUI.js
+- **Tutorial**: [Build a jQuery SPA in 10 minutes](https://estreui.tistory.com)
+
 ## ✨ Features
 
 - 🚀 **No-Build**: Run immediately without a build process
