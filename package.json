@@ -1,6 +1,6 @@
 {
     "name": "create-estreui",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Scaffolding tool for EstreUI projects",
     "main": "index.js",
     "bin": {
@@ -36,6 +36,14 @@
     ],
     "author": "SoliEstre",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SoliEstre/EstreUI-for-node.git"
+    },
+    "homepage": "https://estreui.mpsolutions.kr",
+    "bugs": {
+        "url": "https://github.com/SoliEstre/EstreUI-for-node/issues"
+    },
     "dependencies": {
         "commander": "^14.0.2",
         "inquirer": "^8.2.7",
